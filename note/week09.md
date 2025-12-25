@@ -1,4 +1,4 @@
-# week 9
+# week09
 
 link ตัวอย่าง GitHub:
 https://github.com/drsanti/non-deegree-workshops-2025/tree/svg-d3-visualizarion
