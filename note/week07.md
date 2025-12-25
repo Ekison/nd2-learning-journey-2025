@@ -1,4 +1,4 @@
-# week 7
+# week07
 
 node install
 sql database
