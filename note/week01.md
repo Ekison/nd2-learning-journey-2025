@@ -1,15 +1,17 @@
-## week1
+# week01
+
+## ND2025 Course Materials
 https://drsanti.github.io/kmutt-non-degree-2025/
 
-Figma to flutter
+## Figma to flutter
 - 01: https://youtu.be/bDqXbptippg
 - 02: https://youtu.be/X-vU_YXlrAQ
 - 03: https://youtu.be/ISmsXjHDe1Q
 
-TailwindCSS w. Next.js 14
+## Practical TailwindCSS w. Next.js 14
 https://www.youtube.com/watch?v=jJ6YZ_GquOY
 
-# การติดตั้ง docker และ N8N
+## การติดตั้ง docker และ N8N
 ✅ 1) การติดตั้ง Docker Desktop: https://youtu.be/apsR137wA1k
 ✅ 2) การติดตั้ง n8n บน Docker: https://youtu.be/ccAG9wvEFMQ
 3) สร้างความคุ้นเคยกับ n8n: https://youtu.be/17xHOjUtZh8
