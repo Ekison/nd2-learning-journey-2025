@@ -1,4 +1,4 @@
-#week 03
+# week03
 
 ## TypeScript for Production Web Development
 https://drsanti.github.io/kmutt-non-degree-2025/nd2-w3/
