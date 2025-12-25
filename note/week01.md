@@ -12,11 +12,12 @@ https://drsanti.github.io/kmutt-non-degree-2025/
 https://www.youtube.com/watch?v=jJ6YZ_GquOY
 
 ## การติดตั้ง docker และ N8N
-✅ 1) การติดตั้ง Docker Desktop: https://youtu.be/apsR137wA1k
-✅ 2) การติดตั้ง n8n บน Docker: https://youtu.be/ccAG9wvEFMQ
-3) สร้างความคุ้นเคยกับ n8n: https://youtu.be/17xHOjUtZh8
-4) ลองใช้งาน Google Services: https://youtu.be/nNxfDTGe_dw
+- 01 การติดตั้ง Docker Desktop
+- 02 การติดตั้ง n8n บน Docker
+- 03 สร้างความคุ้นเคยกับ n8n
+- 04 ลองใช้งาน Google Services
 
+## คำสั่ง docker ที่สำคัญ
 - docker volume create n8n_data
 - docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n
 - docker.n8n.io/n8nio/n8n
