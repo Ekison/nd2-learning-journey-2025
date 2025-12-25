@@ -17,12 +17,13 @@
         ตัวอย่างที่ 2: (https://www.gooddata.com/blog/manufacturing-dashboard-examples/)
 
 ## vdo เรียนรู้เพิ่มเติม
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-https://www.youtube.com/watch?v=NrKX46DzkGQ&list=PLXDU_eVOJTx55HFubfbTL3ellJjBM2QE2
-https://www.ibiblio.org/kuphaldt/electricCircuits/Exper/EXP.pdf
-https://www.freebookcentre.net/
-https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf
-https://www.cs.cmu.edu/~tom/files/MachineLearningTomMitchell.pdf
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- https://www.youtube.com/watch?v=NrKX46DzkGQ&list=PLXDU_eVOJTx55HFubfbTL3ellJjBM2QE2
+- https://www.ibiblio.org/kuphaldt/electricCircuits/Exper/EXP.pdf
+- https://www.freebookcentre.net/
+- https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf
+- https://www.cs.cmu.edu/~tom/files/MachineLearningTomMitchell.pdf
+  
 www.flux.ai/
 
 fixma ใช้ addon ได้ เช่น svg repo
