@@ -178,7 +178,8 @@ https://www.youtube.com/watch?v=jJ6YZ_GquOY
         - create new workflow at top right side
         - overview n8n page
 
-![plot](./pic/n8n-workflow-example.PNG)
+## ตัวอย่าง n8n Workflow
+![n8n workflow](../pic/n8n-workflow-example.PNG)
 
 - 04 ลองใช้งาน Google Services
 
