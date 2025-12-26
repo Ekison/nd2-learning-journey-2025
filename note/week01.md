@@ -143,7 +143,7 @@ https://www.youtube.com/watch?v=jJ6YZ_GquOY
 ## การติดตั้ง docker และ N8N
 - 01 การติดตั้ง Docker Desktop
   - 01 Installation & Testing the Docker Desktop   
-    - download docker 0kd website www.docker.com แล้ว save ไฟล์ลงเครื่อง
+    - download โปรแกรม docker desktop จาก website www.docker.com แล้ว save ไฟล์ลงเครื่อง
     - ติดตั้ง docker โดยเลือก option Use WSL2 instead of Hyper-V(recommend)ด้วย แล้วเลือก add shortcut ถ้าต้องการ
     - ทดสอบการใช้งานโดยเปิด cmd ขึ้นมา แล้วพิมพ์คำสั่ง  docker -v ถ้ามี version ของ docker ขึ้นมาก็แสดงว่าสามารถใช้งานโปรแกรมได้
     - เข้าโปรแกรม docker desktop ถ้าโปรแกรมเปิดขึ้นมา ก็แสดงว่าติดตั้งถูกต้อง
@@ -152,8 +152,33 @@ https://www.youtube.com/watch?v=jJ6YZ_GquOY
     - ดูคำสั่งทดสอบอื่นๆใน images hello-world ที่หน้า docker hub
   
 - 02 การติดตั้ง n8n บน Docker
+    - 02 Get Started with n8n in Docker  
+        - เข้าดู n8n.io เพื่อดูข้อมูลเกี่ยวกับ n8n
+        - เข้า docker desktop ไปที่แถบ docker hub ค้นหา n8n
+        - open cmd and type command --> docker volume create n8n_data : this command in create volume and store any data of n8n data
+        - type command to terminal 
+        	for linux or mac
+        	docker run -it --rm \
+         	--name n8n \
+         	-p 5678:5678 \
+         	-v n8n_data:/home/node/.n8n \
+         	docker.n8n.io/n8nio/n8n
+        
+        	in windows : delete \ and make it to single command line: 
+        	docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
+
+        - open n8n by copy url to browser and config n8n ( default port is 5678)
+        - next run container by use commend : docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n 
   
 - 03 สร้างความคุ้นเคยกับ n8n
+  - 03 n8n Working Environment
+        - open docker desktop
+        - run docker by using cmd : docker run -d --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
+        - open n8n in browser and sign in with previous username and password
+        - create new workflow at top right side
+        - overview n8n page
+
+
 - 04 ลองใช้งาน Google Services
 
 ## คำสั่ง docker ที่สำคัญ
