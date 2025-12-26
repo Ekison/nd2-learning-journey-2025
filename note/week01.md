@@ -178,6 +178,10 @@ https://www.youtube.com/watch?v=jJ6YZ_GquOY
         - create new workflow at top right side
         - overview n8n page
 
+        - ![alt text](https://github.com/Ekison/nd2-learning-journey-2025/blob/main/pic/n8n workflow example.PNG?raw=true)
+
+    
+
 
 - 04 ลองใช้งาน Google Services
 
