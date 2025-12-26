@@ -142,7 +142,17 @@ https://www.youtube.com/watch?v=jJ6YZ_GquOY
 
 ## การติดตั้ง docker และ N8N
 - 01 การติดตั้ง Docker Desktop
+  - 01 Installation & Testing the Docker Desktop   
+    - download docker 0kd website www.docker.com แล้ว save ไฟล์ลงเครื่อง
+    - ติดตั้ง docker โดยเลือก option Use WSL2 instead of Hyper-V(recommend)ด้วย แล้วเลือก add shortcut ถ้าต้องการ
+    - ทดสอบการใช้งานโดยเปิด cmd ขึ้นมา แล้วพิมพ์คำสั่ง  docker -v ถ้ามี version ของ docker ขึ้นมาก็แสดงว่าสามารถใช้งานโปรแกรมได้
+    - เข้าโปรแกรม docker desktop ถ้าโปรแกรมเปิดขึ้นมา ก็แสดงว่าติดตั้งถูกต้อง
+    - ไปที่แถบ Docker hub แล้วทดลอง download hello-world มา โดยกดปุ่ม pull images
+    - เปิด cmd พิมพ์คำสั่ง docker run hello-world ว่า run ได้หรือไม่
+    - ดูคำสั่งทดสอบอื่นๆใน images hello-world ที่หน้า docker hub
+  
 - 02 การติดตั้ง n8n บน Docker
+  
 - 03 สร้างความคุ้นเคยกับ n8n
 - 04 ลองใช้งาน Google Services
 
