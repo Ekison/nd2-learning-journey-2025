@@ -179,7 +179,9 @@ https://www.youtube.com/watch?v=jJ6YZ_GquOY
         - overview n8n page
 
 
-![alt text](https://github.com/Ekison/nd2-learning-journey-2025/blob/main/pic/n8n workflow example.PNG?raw=true)
+![alt text](https://github.com/Ekison/nd2-learning-journey-2025/pic/n8n workflow example.PNG?raw=true)
+
+![Alt text](nd2-learning-journey-2025/pic/n8n workflow example.PNG?raw=true "Title")
 
     
 
