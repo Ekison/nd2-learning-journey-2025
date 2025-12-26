@@ -171,7 +171,7 @@ https://www.youtube.com/watch?v=jJ6YZ_GquOY
         - next run container by use commend : docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n 
   
 - 03 สร้างความคุ้นเคยกับ n8n
-  - 03 n8n Working Environment
+    - 03 n8n Working Environment
         - open docker desktop
         - run docker by using cmd : docker run -d --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
         - open n8n in browser and sign in with previous username and password
@@ -181,9 +181,25 @@ https://www.youtube.com/watch?v=jJ6YZ_GquOY
 ## ตัวอย่าง n8n Workflow
 ![n8n workflow](../pic/n8n-workflow-example.PNG)
 
-- 04 ลองใช้งาน Google Services
+        - insert javascript in n8n using ปีกกา 2 อัน แล้วพิมพ์ javascript ด้านในได้เลย {{...}} for example {{ Math.random()}}
 
-## คำสั่ง docker ที่สำคัญ
+- 04 ลองใช้งาน Google Services
+    - 04 Google Cloud Services vs. n8n
+        - register google account
+        - goto website : console.cloud.google.com
+        - create new project by click select a project and add project name
+        - click navigation menu (สามขีด) > api and service > Enabled APIs & Services
+        - click + Enabled APIs & Services at top of webpage and search google sheet api > enable
+        - search gmail api > enable
+        - click navigation menu > api and service > OAuth consent screen
+        - click get start and add information > create
+        - add Audient > adduser > own email and other email by using , to seperate
+        - click clients > + create client > select web application > add name
+        - back to n8n select create spradsheet node and copy OAuth direct url in node
+        - back to client menu and paste copy to Authorized redirect url and click create
+        - copy client ID and secret to n8n and click signin with google to conect to google
+        - test workflow and check new file in google drive
+
+## คำสั่ง docker ที่สำคัญ ในการสร้าง n8n 
 - docker volume create n8n_data
-- docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n
-- docker.n8n.io/n8nio/n8n
+- docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
